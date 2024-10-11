@@ -16,7 +16,7 @@ class Config:
     
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
     FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "") # FORCE SUB channel link 
-    FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "OFF")  # FORCE SUB ON - OFF
+    FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")  # FORCE SUB ON - OFF
 
 
 class temp(object): 
